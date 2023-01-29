@@ -23,6 +23,9 @@ The following fasteners are included in the MeArm Robot kit :
 
 ![Fastener List](./images/fasteners.jpg)
 
-### Hardware Assembly
 
-Hardware should be assembled referring to the instructions provided on the MeArm manual pdf.
+### Servo Motor Pinout
+
+- Brown : Ground
+- Red : +5V Supply
+- Orange : Signal (PWM)
