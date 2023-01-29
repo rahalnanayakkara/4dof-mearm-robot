@@ -49,3 +49,9 @@ Connect the Module to the ESP32 as follows
 | D21 | SDA |
 
 The power for the servo motors must be given through an external power source to the V+ and GND terminals. Connect this to a 5V power source capable of sourcing ~2A current
+
+### Calibration process
+
+The duty cycle corresponding to minimum and maximum servo positions was found using an analog potentiometer with the ["servo_test"](./servo_test/servo_test.ino) code.
+
+Servos were set to the required position using the ["servo_calib"](./servo_calib/servo_calib.ino) code.
