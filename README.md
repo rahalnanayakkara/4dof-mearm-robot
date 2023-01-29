@@ -23,9 +23,29 @@ The following fasteners are included in the MeArm Robot kit :
 
 ![Fastener List](./images/fasteners.jpg)
 
+## Calibrating Servo Motors
 
 ### Servo Motor Pinout
 
 - Brown : Ground
 - Red : +5V Supply
 - Orange : Signal (PWM)
+
+The servo motor position changes from $0^0$ to $180^0$ depending on the duty cycle of the PWM signal given to the Orange wire.
+
+The duty cycle corresponding to minimum and maximum position must be found during the calibration process.
+
+### PCA9685 Driver
+
+Connect the Motor driver module to the ESP32 for testing. Tutorial for connecting the module to an Arduino is given [here](https://learn.adafruit.com/16-channel-pwm-servo-driver/hooking-it-up)
+
+Connect the Module to the ESP32 as follows
+
+| ESP32 Pin   | Module Pin |
+| ----------- | -----------|
+| 3V3 | VCC |
+| GND | GND |
+| D22 | SCL |
+| D21 | SDA |
+
+The power for the servo motors must be given through an external power source to the V+ and GND terminals. Connect this to a 5V power source capable of sourcing ~2A current
