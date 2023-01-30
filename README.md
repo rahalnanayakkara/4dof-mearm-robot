@@ -55,3 +55,7 @@ The power for the servo motors must be given through an external power source to
 The duty cycle corresponding to minimum and maximum servo positions was found using an analog potentiometer with the ["servo_test"](./servo_test/servo_test.ino) code.
 
 Servos were set to the required position using the ["servo_calib"](./servo_calib/servo_calib.ino) code.
+
+## Assembly Process
+
+Several assembly tutorials available online. This kit differs slightly from most other commonly avaliable kits. Some linkages are missing. [This](https://www.youtube.com/watch?v=-H-A9VDSot4) is a video tutorial for this exact kit.

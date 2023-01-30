@@ -4,5 +4,5 @@
     "output": "../build",
     "programmer": "esp32:esptool",
     "port": "COM6",
-    "sketch": "servo_calib\\servo_calib.ino"
+    "sketch": "servo_angle_set\\servo_angle_set.ino"
 }
