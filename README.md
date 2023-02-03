@@ -68,7 +68,6 @@ The dimensions of the kit used in the this project are given below.
 
 ![Dimensions](/images/dimensions.jpg)
 
-<center>
 
 | Paramter | Value (mm) |
 |:-------:|:---------:|
@@ -82,8 +81,6 @@ The dimensions of the kit used in the this project are given below.
 | $l_4$ | 80 |
 | $l_5$ | 65 |
 | $d_5$ | 5 |
-
-</center>
 
 Before calculating configurations using inverse kinematics, the angles of the servo motors must be verified.
 This can be done by setting all servos to $90^0$ and checking with the given diagram above.
