@@ -59,3 +59,31 @@ Servos were set to the required position using the ["servo_calib"](./servo_calib
 ## Assembly Process
 
 Several assembly tutorials available online. This kit differs slightly from most other commonly avaliable kits. Some linkages are missing. [This](https://www.youtube.com/watch?v=-H-A9VDSot4) is a video tutorial for this exact kit.
+
+## Dimensions
+
+Accurate measurements of the dimensions are essential for proper calculation of inverse and forward kinematics.
+
+The dimensions of the kit used in the this project are given below.
+
+![Dimensions](/images/dimensions.jpg)
+
+<center>
+
+| Paramter | Value (mm) |
+|:-------:|:---------:|
+| $l_0$ | 0 |
+| $h_1$ | 64 |
+| $l_1$ | 15 |
+| $l_2$ | 80 |
+| $l_3$ | 80 |
+|$l_{3I}$| 35 |
+|$l_{3O}$| 35 |
+| $l_4$ | 80 |
+| $l_5$ | 65 |
+| $d_5$ | 5 |
+
+</center>
+
+Before calculating configurations using inverse kinematics, the angles of the servo motors must be verified.
+This can be done by setting all servos to $90^0$ and checking with the given diagram above.

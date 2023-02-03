@@ -4,5 +4,5 @@
     "output": "../build",
     "programmer": "esp32:esptool",
     "port": "COM6",
-    "sketch": "robot_angle_set\\robot_angle_set.ino"
+    "sketch": "robot_axis_control\\robot_axis_control.ino"
 }

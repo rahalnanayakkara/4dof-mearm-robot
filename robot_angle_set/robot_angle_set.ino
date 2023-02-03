@@ -1,5 +1,7 @@
 /*
-Sets all servos to specified angles
+    Sets all servos of the robot to specified angles
+
+    Last Edited - 31/01/2023
 */
 
 #include <math.h>

@@ -1,8 +1,8 @@
 /*
-Used to test the limits of the servo motor. Analog read from the 
-potentiometer is used to determine the duty cycle to be applied 
-to the servo motor. A LPF is used to smoothen the input from the 
-potentiometer.
+    Used to test the limits of the servo motor. Analog read from the 
+    potentiometer is used to determine the duty cycle to be applied 
+    to the servo motor. A LPF is used to smoothen the input from the 
+    potentiometer.
 */
 
 #include <Arduino.h>
