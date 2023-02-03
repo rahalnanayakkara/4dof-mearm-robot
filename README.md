@@ -2,6 +2,10 @@
 
 Building and programming a 4 degree of freedom robotic arm (MeArm Robot Kit)
 
+Link :- [4-dof-mearm-robot](https://github.com/rahalnanayakkara/4dof-mearm-robot)
+
+![Robot Arm](/images/completed_arm.jpg)
+
 ## Hardware
 
 List of hardware (with links)
@@ -59,6 +63,14 @@ Servos were set to the required position using the ["servo_calib"](./servo_calib
 ## Assembly Process
 
 Several assembly tutorials available online. This kit differs slightly from most other commonly avaliable kits. Some linkages are missing. [This](https://www.youtube.com/watch?v=-H-A9VDSot4) is a video tutorial for this exact kit.
+
+![Half assembled arm](./images/half_assembled.jpg)
+
+Take care during assembly as the acrylic parts (particularly the servo motor holders) are fragile.
+
+![Broken Servo Holder](./images/broken.jpg)
+
+Can be mended using superglue, but are prone to breaking again.
 
 ## Dimensions
 
