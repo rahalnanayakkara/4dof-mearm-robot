@@ -124,34 +124,27 @@ void setup()
 
     printPos();
 
-    // RobotPosition_t pos1 = {140, -5, 144};
-    // RobotPosition_t pos2 = {140, -5, 30};
-    // RobotPosition_t pos3 = {200, -5, 30};
-    // RobotPosition_t pos4 = {200, -5, 40};
-    // RobotPosition_t pos5 = {140, 140, 100};
-    // RobotPosition_t pos6 = {140, 140, 30};
-
-    RobotPosition_t pos1 = {140, 140, 140};
-    RobotPosition_t pos2 = {0, 160, 30};
-    RobotPosition_t pos3 = {140, 140, 30};
-    // RobotPosition_t pos4 = {200, -5, 40};
-    // RobotPosition_t pos5 = {140, 140, 100};
-    // RobotPosition_t pos6 = {140, 140, 30};
+    RobotPosition_t pos1 = {140, -5, 144};
+    RobotPosition_t pos2 = {140, -5, 30};
+    RobotPosition_t pos3 = {200, -5, 30};
+    RobotPosition_t pos4 = {200, -5, 40};
+    RobotPosition_t pos5 = {140, 140, 100};
+    RobotPosition_t pos6 = {140, 140, 30};
 
     moveL(robotServos, q_current, pos1, 1.5, params);
     delay(100);
     moveL(robotServos, q_current, pos2, 1.5, params);
-    // claw_release();
+    claw_release();
     delay(100);
     moveL(robotServos, q_current, pos3, 1.5, params);
-    // claw_grab();
+    claw_grab();
     delay(100);
-    // moveL(robotServos, q_current, pos4, 1.5, params);
-    // delay(100);
-    // moveL(robotServos, q_current, pos5, 1.5, params);
-    // delay(100);
-    // moveL(robotServos, q_current, pos6, 1.5, params);
-    // claw_release();
+    moveL(robotServos, q_current, pos4, 1.5, params);
+    delay(100);
+    moveL(robotServos, q_current, pos5, 1.5, params);
+    delay(100);
+    moveL(robotServos, q_current, pos6, 1.5, params);
+    claw_release();
     delay(100);
     moveL(robotServos, q_current, homePos, 1.5, params);
 
